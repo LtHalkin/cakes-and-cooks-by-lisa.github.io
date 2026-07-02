@@ -1,0 +1,13 @@
+{
+  "name": "cakesandcooksbylisa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cakes & Cooks by Lisa — bespoke cake website with Stripe checkout, deployed on Cloudflare Pages.",
+  "scripts": {
+    "dev": "wrangler pages dev src --compatibility-date=2026-07-01",
+    "deploy": "wrangler pages deploy src"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
